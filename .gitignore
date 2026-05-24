@@ -1,0 +1,35 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ML model & data
+backend/app/ml/model.pkl
+backend/app/ml/metrics.json
+
+# Uploads & reports (generated files)
+backend/uploads/
+backend/reports/
+
+# Logs
+backend/logs/
+
+# Streamlit cache
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

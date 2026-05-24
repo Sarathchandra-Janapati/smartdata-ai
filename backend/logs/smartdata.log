@@ -20,3 +20,9 @@
 [2026-05-24 11:43:11] INFO [smartdata] MySQL tables created/verified.
 [2026-05-24 11:43:11] INFO [smartdata] MySQL tables initialized
 [2026-05-24 11:55:58] INFO [smartdata] File saved: uploads\churn_dataset.csv (0.15 MB)
+[2026-05-24 11:57:25] INFO [smartdata] Starting SmartData AI Platform v1.0.0
+[2026-05-24 11:57:25] INFO [smartdata] MySQL tables created/verified.
+[2026-05-24 11:57:25] INFO [smartdata] MySQL tables initialized
+[2026-05-24 11:57:34] INFO [smartdata] File saved: uploads\churn_dataset.csv (0.15 MB)
+[2026-05-24 12:03:40] INFO [smartdata] File saved: uploads\churn_dataset.csv (0.15 MB)
+[2026-05-24 12:09:42] INFO [smartdata] File saved: uploads\churn_dataset.csv (0.15 MB)

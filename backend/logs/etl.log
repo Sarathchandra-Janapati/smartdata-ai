@@ -13,3 +13,48 @@
 [2026-05-24 11:55:58] INFO [etl] Saved cleaned data to CSV: uploads\cleaned_da8eddba-47ef-45ca-8842-6411fca842e4.csv
 [2026-05-24 11:55:58] INFO [etl] [da8eddba-47ef-45ca-8842-6411fca842e4] Cleaned CSV saved: uploads\cleaned_da8eddba-47ef-45ca-8842-6411fca842e4.csv
 [2026-05-24 11:55:58] INFO [etl] [da8eddba-47ef-45ca-8842-6411fca842e4] ETL pipeline completed successfully
+[2026-05-24 11:57:34] INFO [etl] [ef7e0177-d735-4ca9-8c5d-e038309eb897] ETL started for churn_dataset.csv
+[2026-05-24 11:57:34] INFO [etl] Extracting CSV: churn_dataset.csv
+[2026-05-24 11:57:34] INFO [etl] Extracted 2000 rows, 12 columns from churn_dataset.csv
+[2026-05-24 11:57:34] INFO [etl] [ef7e0177-d735-4ca9-8c5d-e038309eb897] Extracted 2000 rows, 12 columns
+[2026-05-24 11:57:34] INFO [etl] Removed 0 duplicate rows
+[2026-05-24 11:57:34] INFO [etl] Handled missing values in columns: ['monthly_charges', 'total_charges', 'support_calls']
+[2026-05-24 11:57:34] INFO [etl] Encoded categorical columns: ['customer_id', 'gender', 'contract_type', 'internet_service', 'payment_method']
+[2026-05-24 11:57:34] INFO [etl] Removed 306 outlier rows
+[2026-05-24 11:57:34] INFO [etl] Transformation complete. Final shape: (1694, 12)
+[2026-05-24 11:57:34] INFO [etl] [ef7e0177-d735-4ca9-8c5d-e038309eb897] Transform complete: {'duplicates_removed': 0, 'missing_handled': {'monthly_charges': 40, 'total_charges': 40, 'support_calls': 40}, 'encoded_columns': ['customer_id', 'gender', 'contract_type', 'internet_service', 'payment_method'], 'outliers_removed': 306, 'final_shape': (1694, 12)}
+[2026-05-24 11:57:35] INFO [etl] Loaded 1694 records to MongoDB (job=ef7e0177-d735-4ca9-8c5d-e038309eb897)
+[2026-05-24 11:57:35] INFO [etl] [ef7e0177-d735-4ca9-8c5d-e038309eb897] Loaded 1694 records to MongoDB
+[2026-05-24 11:57:35] INFO [etl] Saved cleaned data to CSV: uploads\cleaned_ef7e0177-d735-4ca9-8c5d-e038309eb897.csv
+[2026-05-24 11:57:35] INFO [etl] [ef7e0177-d735-4ca9-8c5d-e038309eb897] Cleaned CSV saved: uploads\cleaned_ef7e0177-d735-4ca9-8c5d-e038309eb897.csv
+[2026-05-24 11:57:35] INFO [etl] [ef7e0177-d735-4ca9-8c5d-e038309eb897] ETL pipeline completed successfully
+[2026-05-24 12:03:40] INFO [etl] [647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37] ETL started for churn_dataset.csv
+[2026-05-24 12:03:40] INFO [etl] Extracting CSV: churn_dataset.csv
+[2026-05-24 12:03:40] INFO [etl] Extracted 2000 rows, 12 columns from churn_dataset.csv
+[2026-05-24 12:03:40] INFO [etl] [647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37] Extracted 2000 rows, 12 columns
+[2026-05-24 12:03:40] INFO [etl] Removed 0 duplicate rows
+[2026-05-24 12:03:40] INFO [etl] Handled missing values in columns: ['monthly_charges', 'total_charges', 'support_calls']
+[2026-05-24 12:03:40] INFO [etl] Encoded categorical columns: ['customer_id', 'gender', 'contract_type', 'internet_service', 'payment_method']
+[2026-05-24 12:03:40] INFO [etl] Removed 306 outlier rows
+[2026-05-24 12:03:40] INFO [etl] Transformation complete. Final shape: (1694, 12)
+[2026-05-24 12:03:40] INFO [etl] [647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37] Transform complete: {'duplicates_removed': 0, 'missing_handled': {'monthly_charges': 40, 'total_charges': 40, 'support_calls': 40}, 'encoded_columns': ['customer_id', 'gender', 'contract_type', 'internet_service', 'payment_method'], 'outliers_removed': 306, 'final_shape': (1694, 12)}
+[2026-05-24 12:03:40] INFO [etl] Loaded 1694 records to MongoDB (job=647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37)
+[2026-05-24 12:03:40] INFO [etl] [647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37] Loaded 1694 records to MongoDB
+[2026-05-24 12:03:40] INFO [etl] Saved cleaned data to CSV: uploads\cleaned_647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37.csv
+[2026-05-24 12:03:40] INFO [etl] [647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37] Cleaned CSV saved: uploads\cleaned_647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37.csv
+[2026-05-24 12:03:40] INFO [etl] [647b27c1-dcbb-4cfe-a1ff-64e9c3e1bb37] ETL pipeline completed successfully
+[2026-05-24 12:09:42] INFO [etl] [559d6290-7a2b-4144-ab3f-41cf83c0d026] ETL started for churn_dataset.csv
+[2026-05-24 12:09:42] INFO [etl] Extracting CSV: churn_dataset.csv
+[2026-05-24 12:09:42] INFO [etl] Extracted 2000 rows, 12 columns from churn_dataset.csv
+[2026-05-24 12:09:42] INFO [etl] [559d6290-7a2b-4144-ab3f-41cf83c0d026] Extracted 2000 rows, 12 columns
+[2026-05-24 12:09:42] INFO [etl] Removed 0 duplicate rows
+[2026-05-24 12:09:42] INFO [etl] Handled missing values in columns: ['monthly_charges', 'total_charges', 'support_calls']
+[2026-05-24 12:09:42] INFO [etl] Encoded categorical columns: ['customer_id', 'gender', 'contract_type', 'internet_service', 'payment_method']
+[2026-05-24 12:09:42] INFO [etl] Removed 306 outlier rows
+[2026-05-24 12:09:42] INFO [etl] Transformation complete. Final shape: (1694, 12)
+[2026-05-24 12:09:42] INFO [etl] [559d6290-7a2b-4144-ab3f-41cf83c0d026] Transform complete: {'duplicates_removed': 0, 'missing_handled': {'monthly_charges': 40, 'total_charges': 40, 'support_calls': 40}, 'encoded_columns': ['customer_id', 'gender', 'contract_type', 'internet_service', 'payment_method'], 'outliers_removed': 306, 'final_shape': (1694, 12)}
+[2026-05-24 12:09:42] INFO [etl] Loaded 1694 records to MongoDB (job=559d6290-7a2b-4144-ab3f-41cf83c0d026)
+[2026-05-24 12:09:42] INFO [etl] [559d6290-7a2b-4144-ab3f-41cf83c0d026] Loaded 1694 records to MongoDB
+[2026-05-24 12:09:42] INFO [etl] Saved cleaned data to CSV: uploads\cleaned_559d6290-7a2b-4144-ab3f-41cf83c0d026.csv
+[2026-05-24 12:09:42] INFO [etl] [559d6290-7a2b-4144-ab3f-41cf83c0d026] Cleaned CSV saved: uploads\cleaned_559d6290-7a2b-4144-ab3f-41cf83c0d026.csv
+[2026-05-24 12:09:42] INFO [etl] [559d6290-7a2b-4144-ab3f-41cf83c0d026] ETL pipeline completed successfully

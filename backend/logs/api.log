@@ -14,3 +14,9 @@
 [2026-05-24 11:55:14] ERROR [api] PDF report error: No cleaned data files found. Run ETL first.
 [2026-05-24 11:55:58] INFO [api] CSV uploaded by Sarath: churn_dataset.csv
 [2026-05-24 11:57:15] INFO [api] User logged in: Sarath
+[2026-05-24 11:57:34] INFO [api] CSV uploaded by Sarath: churn_dataset.csv
+[2026-05-24 12:03:40] INFO [api] CSV uploaded by Sarath: churn_dataset.csv
+[2026-05-24 12:04:17] INFO [api] Prediction by Sarath: 0 (0.7991)
+[2026-05-24 12:09:42] INFO [api] CSV uploaded by Sarath: churn_dataset.csv
+[2026-05-24 12:10:16] INFO [api] Prediction by Sarath: 0 (0.7991)
+[2026-05-24 12:11:36] INFO [api] User logged in: Sarath
