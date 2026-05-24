@@ -1,0 +1,34 @@
+{
+  "accuracy": 0.6975,
+  "precision": 0.692459941989806,
+  "recall": 0.6975,
+  "f1_score": 0.6942265012830302,
+  "confusion_matrix": [
+    [
+      200,
+      54
+    ],
+    [
+      67,
+      79
+    ]
+  ],
+  "model_type": "RandomForestClassifier",
+  "features": [
+    "gender",
+    "senior_citizen",
+    "tenure",
+    "contract_type",
+    "internet_service",
+    "payment_method",
+    "monthly_charges",
+    "total_charges",
+    "num_products",
+    "support_calls"
+  ],
+  "target_classes": null,
+  "n_features": 10,
+  "train_size": 1600,
+  "test_size": 400,
+  "trained_at": "2026-05-24T05:30:21.526975"
+}

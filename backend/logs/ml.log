@@ -1,0 +1,11 @@
+[2026-05-24 10:57:02] INFO [ml] Training on datasets/churn_dataset.csv, target=churn
+[2026-05-24 10:58:08] INFO [ml] Training on C:\Users\1212s\Desktop\Python_project\datasets\churn_dataset.csv, target=churn
+[2026-05-24 10:58:42] INFO [ml] Training on C:\Users\1212s\Desktop\Python_project\smartdata-ai\datasets\churn_dataset.csv, target=churn
+[2026-05-24 10:58:43] INFO [ml] Model saved. Accuracy=0.6825
+[2026-05-24 10:59:33] INFO [ml] Training on C:\Users\1212s\Desktop\Python_project\smartdata-ai\datasets\churn_dataset.csv, target=churn
+[2026-05-24 10:59:34] INFO [ml] Model saved. Accuracy=0.6750
+[2026-05-24 11:00:19] INFO [ml] Training on C:\Users\1212s\Desktop\Python_project\smartdata-ai\datasets\churn_dataset.csv, target=churn
+[2026-05-24 11:00:21] INFO [ml] Model saved. Accuracy=0.6975
+[2026-05-24 11:53:48] INFO [ml] Model loaded from disk
+[2026-05-24 11:53:48] INFO [ml] Prediction: 0 (confidence=0.799)
+[2026-05-24 11:54:43] INFO [ml] Prediction: 0 (confidence=0.799)
